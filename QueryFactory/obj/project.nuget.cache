@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KsyRju8ice81pRxhshiW22kYxjs1U601Vu7ustOG1x2BlrMsPTSifH91fWbG3dF57eNIK9iTb6HkCi080XC9TQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phili\\source\\repos\\QueryFactory\\QueryFactory\\QueryFactory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phili\\.nuget\\packages\\ardalis.smartenum\\2.0.1\\ardalis.smartenum.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
