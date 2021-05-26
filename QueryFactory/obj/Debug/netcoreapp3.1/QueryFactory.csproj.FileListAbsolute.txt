@@ -1,0 +1,15 @@
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.csprojAssemblyReference.cache
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.AssemblyInfoInputs.cache
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.AssemblyInfo.cs
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.csproj.CoreCompileInputs.cache
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.exe
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.deps.json
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.runtimeconfig.json
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.runtimeconfig.dev.json
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.dll
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\QueryFactory.pdb
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\bin\Debug\netcoreapp3.1\Ardalis.SmartEnum.dll
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.csproj.CopyComplete
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.dll
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.pdb
+C:\Users\phili\source\repos\QueryFactory\QueryFactory\obj\Debug\netcoreapp3.1\QueryFactory.genruntimeconfig.cache

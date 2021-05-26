@@ -60,9 +60,9 @@ namespace QueryFactory
 
         static void Main(string[] args)
         {
-            IQueryFactory query1 = new QueryFactory<RotaInspetor>();
-            IQueryFactory query2 = new QueryFactory<Notificacao>();
-            var a = new QueryFactory<RotaInspetor>();
+            //IQueryFactory query1 = new QueryFactory<RotaInspetor>();
+            //IQueryFactory query2 = new QueryFactory<Notificacao>();
+            //var a = new QueryFactory<RotaInspetor>();
             //a.Select().teste()
             //query1.Select().
             //query2.Select<RotaInspetor>().; 

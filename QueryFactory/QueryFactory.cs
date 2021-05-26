@@ -5,67 +5,67 @@ using System.Text;
 
 namespace QueryFactory
 {
-    public class QueryFactory<T> : IQueryFactory where T : class
-    {
-        private readonly StringBuilder select;
-        private readonly StringBuilder join;
-        private readonly Type instanceType = typeof(T);
+    //public class QueryFactory<T> : IQueryFactory where T : class
+    //{
+    //    private readonly StringBuilder select;
+    //    private readonly StringBuilder join;
+    //    private readonly Type instanceType = typeof(T);
 
-        public QueryFactory()
-        {
-            select = new StringBuilder();
-            join = new StringBuilder();
-        }
+    //    public QueryFactory()
+    //    {
+    //        select = new StringBuilder();
+    //        join = new StringBuilder();
+    //    }
 
-        public string Select(params object[] paramsToExclude)
-        {
-            select.Append("SELECT ");
-            PropertyInfo[] props = instanceType.GetProperties();
-            string entityName = instanceType.Name.ToCamelCase();
-            for (int i = 0; i < props.Length; i++)
-            {
-                select.AppendLine($"{entityName}.{props[i].Name.ToCamelCase()} AS {props[i].Name}");
-                if (i < props.Length - 1)
-                    select.Append(",");
-            }
-            string queryy = select.ToString();
-            return queryy;
-        }
+    //    public string Select(params object[] paramsToExclude)
+    //    {
+    //        select.Append("SELECT ");
+    //        PropertyInfo[] props = instanceType.GetProperties();
+    //        string entityName = instanceType.Name.ToCamelCase();
+    //        for (int i = 0; i < props.Length; i++)
+    //        {
+    //            select.AppendLine($"{entityName}.{props[i].Name.ToCamelCase()} AS {props[i].Name}");
+    //            if (i < props.Length - 1)
+    //                select.Append(",");
+    //        }
+    //        string queryy = select.ToString();
+    //        return queryy;
+    //    }
 
-        public string Select<O>(params object[] paramsToExclude) where O : class
-        {
-            select.Append("SELECT ");
-            Type localType = typeof(O);
-            PropertyInfo[] props = localType.GetProperties();
-            string entityName = localType.Name.ToCamelCase();
-            for (int i = 0; i < props.Length; i++)
-            {
-                select.AppendLine($"{entityName}.{props[i].Name.ToCamelCase()} AS {props[i].Name}");
-                if (i < props.Length - 1)
-                    select.Append(",");
-            }
-            string queryy = select.ToString();
-            return queryy;
-        }
+    //    public string Select<O>(params object[] paramsToExclude) where O : class
+    //    {
+    //        select.Append("SELECT ");
+    //        Type localType = typeof(O);
+    //        PropertyInfo[] props = localType.GetProperties();
+    //        string entityName = localType.Name.ToCamelCase();
+    //        for (int i = 0; i < props.Length; i++)
+    //        {
+    //            select.AppendLine($"{entityName}.{props[i].Name.ToCamelCase()} AS {props[i].Name}");
+    //            if (i < props.Length - 1)
+    //                select.Append(",");
+    //        }
+    //        string queryy = select.ToString();
+    //        return queryy;
+    //    }
 
-        public string Join<O>(params object[] paramsToExclude) where O : class
-        {
-            PropertyInfo[] props = typeof(O).GetProperties();
-            for (int i = 0; i < props.Length; i++)
-            {
-                select.AppendLine($"{props[i].Name.ToCamelCase()} AS {props[i].Name}");
-                if (i < props.Length - 1)
-                    select.Append(",");
-            }
-            string queryy = select.ToString();
-            return queryy;
-        }
+    //    public string Join<O>(params object[] paramsToExclude) where O : class
+    //    {
+    //        PropertyInfo[] props = typeof(O).GetProperties();
+    //        for (int i = 0; i < props.Length; i++)
+    //        {
+    //            select.AppendLine($"{props[i].Name.ToCamelCase()} AS {props[i].Name}");
+    //            if (i < props.Length - 1)
+    //                select.Append(",");
+    //        }
+    //        string queryy = select.ToString();
+    //        return queryy;
+    //    }
 
-        public string Where<U>(object left, object right) where U : class
-        {
-            return "asd";
-        }
-    }
+    //    public string Where<U>(object left, object right) where U : class
+    //    {
+    //        return "asd";
+    //    }
+    //}
 
     public class JoinType : SmartEnum<JoinType>
     {
